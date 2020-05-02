@@ -12,7 +12,7 @@ namespace Infrastructure.Diagnostics
         int EventId { get; }
     }
 
-    public interface IResult<T> : IResultStatus
+    public interface IResult<out T> : IResultStatus
     {
         T Data { get; }
     }
