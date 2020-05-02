@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Infrastructure.Diagnostics
 {
-    public interface IResult { }
+    public interface IResult<T> { }
 
-    public class Result : IResult
+    public class Result<T> : IResult<T>
     {
 
     }
