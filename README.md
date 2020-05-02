@@ -12,5 +12,6 @@ implements
 {
 	IResult,
 	DDD,
-	CQRS
+	CQRS,
+	REST
 }
