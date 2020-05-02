@@ -12,9 +12,5 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\03.Domain\03.Domain.csproj" />
-  </ItemGroup>
-
 
 </Project>

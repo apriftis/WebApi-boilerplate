@@ -1,12 +1,10 @@
-﻿using DataAccess.Databases.Sales;
+﻿using AutoMapper;
+using DataAccess.Databases.Sales;
 using Domain.Models.Sales;
+using Domain.Sales.Repositories.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using AutoMapper;
-using Domain.Sales.Repositories.Abstractions;
 
 namespace Domain.Sales.Repositories
 {
