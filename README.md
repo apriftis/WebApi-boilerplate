@@ -1,4 +1,4 @@
-# WebApi-boilerplate
+# Simple WebApi .net core 3.1 boilerplate
 
 using
 {
