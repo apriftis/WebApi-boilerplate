@@ -2,19 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Domain</RootNamespace>
-    <AssemblyName>Domain</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AspNetCore.ServiceRegistration.Dynamic" Version="1.1.1" />
     <PackageReference Include="AutoMapper" Version="9.0.0" />
-    <PackageReference Include="MediatR" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\01.DataAccess.csproj" />
-    <ProjectReference Include="..\Infrastracture\00.Infrastructure.csproj" />
+    <ProjectReference Include="..\Databases\Databases.csproj" />
+    <ProjectReference Include="..\Diagnostics\Diagnostics.csproj" />
   </ItemGroup>
 
 </Project>
